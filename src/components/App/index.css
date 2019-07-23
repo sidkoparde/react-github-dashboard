@@ -1,0 +1,35 @@
+.leftside,
+.rightside {
+  height: 88vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .leftside,
+  .rightside {
+    height: 72vh;
+  }
+}
+.content {
+  padding: 40px;
+}
+
+.container-fluid {
+  overflow: hidden;
+  padding: 0px !important;
+}
+
+.search {
+  padding-bottom: 20px;
+}
+
+.wrap-text {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+
+.rightside {
+  background-color: #c5b8da;
+}
