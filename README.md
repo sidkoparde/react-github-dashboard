@@ -7,3 +7,4 @@ Technologies used:
 - Functional Components
 - Hooks
 - Context API for state management
+- Bootstrap
